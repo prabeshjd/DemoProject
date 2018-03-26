@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [ZOHO CRM Application Test Automation Test Suite]">
+  <listeners>
+    <listener class-name="com.qa.ExtentReportListener.ExtentReporterNG"/>
+  </listeners>
+  <test name="ZOHO CRM App Test Cases(failed)">
+    <classes>
+      <class name="com.zoho.qa.testcases.LoginPageTest">
+        <methods>
+          <include name="tearDown"/>
+          <include name="setUp"/>
+          <include name="verifyFgtPwdTest"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.LoginPageTest -->
+      <class name="com.zoho.qa.testcases.ContactsPageTest">
+        <methods>
+          <include name="setUp"/>
+          <include name="tearDown"/>
+          <include name="validateNewContactCreationTest"/>
+        </methods>
+      </class> <!-- com.zoho.qa.testcases.ContactsPageTest -->
+    </classes>
+  </test> <!-- ZOHO CRM App Test Cases(failed) -->
+</suite> <!-- Failed suite [ZOHO CRM Application Test Automation Test Suite] -->
